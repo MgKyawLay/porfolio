@@ -1,5 +1,5 @@
 {
-  "name": "aya_phraya",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -15,6 +15,7 @@
     "next": "15.0.3",
     "react": "19.0.0-rc-66855b96-20241106",
     "react-dom": "19.0.0-rc-66855b96-20241106",
+    "scrollreveal": "^4.0.9",
     "tailwind-merge": "^2.5.5",
     "tailwindcss-animate": "^1.0.7"
   },
@@ -22,6 +23,7 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/scrollreveal": "^0.0.11",
     "eslint": "^8",
     "eslint-config-next": "15.0.3",
     "postcss": "^8",

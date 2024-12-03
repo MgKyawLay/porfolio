@@ -1,16 +1,19 @@
-import React from 'react';
-import {Input} from "@/components/ui/input";
+import React from "react";
+import { Input } from "@/components/ui/input";
+import Hero from "@/components/Hero";
+import About from "@/components/About";
+import Projects from "@/components/Projects";
 
-interface Props {
+interface Props {}
 
-}
-
-const Dashboard:React.FC<Props> = () => {
-    return (
-        <div className={'relative'}>
-            <Input className={'bg-white rounded-full pl-14 placeholder:text-gray-400'} placeholder={'Account'}/>
-        </div>
-    );
-}
+const Dashboard: React.FC<Props> = () => {
+  return (
+    <main>
+      <Hero />
+      <About />
+      <Projects />
+    </main>
+  );
+};
 
 export default Dashboard;
