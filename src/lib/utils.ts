@@ -8,7 +8,7 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 
-export const initScrollReveal = (elements, options = {}) => {
+export const initScrollReveal = (elements: { element: any; animation: any; }[], options = {}) => {
   elements.forEach(({ element, animation }) => {
     ScrollReveal().reveal(element, { ...options, ...animation });
   });
